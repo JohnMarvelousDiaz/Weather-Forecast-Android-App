@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".Jokes">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jokeNum"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/joke_text_view"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Press the button\n to get a joke" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: Turn the volume up to enable \nText-to-Speech function."
+        android:textAlignment="center"
+        android:layout_marginTop="14dp"
+        android:fontFamily="monospace"
+        android:textStyle="italic"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/get_joke_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#78d23e"
+        android:padding="10dp"
+        android:text="Get Joke" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:backgroundTint="#a594da"
+        android:text="Back" />
+
+</LinearLayout>

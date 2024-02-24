@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:keepScreenOn="true"
+            android:id="@+id/videoView"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="205dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER PAGE"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="#40000000">
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:hint="Enter E-mail Address"
+                android:id="@+id/etRegEmail"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+                android:textColorHint="#FFFFFF"
+                android:inputType="textPassword"
+                android:id="@+id/etRegPassword"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:hint="Enter First Name (optional)"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/etRegFName"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:hint="Enter Last Name (optional)"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/etRegLName"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/btnRegister"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLogIn"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"
+                android:text="Already have an account?"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="210dp"
+                android:text="@string/projContext"
+                android:textSize="14dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

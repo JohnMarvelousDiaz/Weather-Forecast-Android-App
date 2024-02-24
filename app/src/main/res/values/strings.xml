@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FINAL PROJECT</string>
+    <string name="projContext">This app has been created as a part of a school project. Its purpose is to demonstrate the knowledge and skills acquired by the student during the course. It is not intended for commercial or public use, but rather as a learning tool for the student to apply and showcase their abilities. - NOSASCEND, 2023</string>
+    <string name="DICTIONARYDesc">Unlock the power of language with a dictionary API.</string>
+    <string name="NASADesc">Stay informed, stay safe: Use the COVID tracker API.</string>
+    <string name="JOKESDesc">Adding humor to your application with Jokes API.</string>
+    <string name="WEATHERDesc">Empowering applications with accurate and reliable weather data through the Weather API.</string>
+    <string name="POKEDEXDesc">Bringing the world of Pokémon to your fingertips with Pokemon API.</string>
+
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="total">Total</string>
+    <string name="deaths">Deaths</string>
+    <string name="covid_19">Covid-19</string>
+    <string name="country">Country</string>
+    <string name="cases">Cases</string>
+    <string name="increment_number">+232325</string>
+    <string name="number">2323236544</string>
+
+</resources>
